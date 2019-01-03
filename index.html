@@ -106,19 +106,11 @@
             <div class="subheading mb-3">MUFG Bank</div>
             <p>“STP For Wires Processing and Internal Transfers” is a change to how the wires and internal transfers are processed in the MUFG bank. This change involved making several enhancements to the exisiting applications to increase UX and also removing several legacy applications. New applications were added to decrease the TAT and help process the wires faster.
           </div>
+          <div class="subheading mb-3">Checkalt Klik</div>
+            <p>Klik solution helps financial institutions and major corporations simplify receivables management. It provides private label cash management products and end-to-end outsourced solutions allowing companies to better serve their clients - while minimizing cost and complexity. It helps companies grow, increase market reach and streamline costs with our hosted, cutting-edge receivables management solutions.
+          </div>
           <div class="resume-date text-md-right">
             <span class="text-primary">September 2017 - Present</span>
-          </div>
-        </div>
-
-        <div class="resume-item d-flex flex-column flex-md-row mb-5">
-          <div class="resume-content mr-auto">
-            <h3 class="mb-0">Intern</h3>
-            <div class="subheading mb-3">Glivytech Technology</div>
-            <p>N.A</p>
-          </div>
-          <div class="resume-date text-md-right">
-            <span class="text-primary">May 2015 - July 2015</span>
           </div>
         </div>
       </div>
@@ -281,6 +273,24 @@
     <section class="resume-section p-3 p-lg-5 d-flex flex-column" id="projects">
       <div class="my-auto">
         <h2 class="mb-5">Projects</h2>
+        <div class="subheading mb-3">ResNET 50 From Scratch</div>
+        <p>Built a ResNET50 from scratch using only tensorflow and numpy. The model was then trained on a small but complex dataset of only 120 images.
+        </p>
+        <p class="mb-0">Deep neural networks can often learn complex features and representations. In our cat vs non-cat dataset which was very complex but was of very small size (only 120) images gave us great results using ResNET50 giving us an accuracy of nearly 70 percent without any optimizations. The model used the tensorboard and model checkpoint callbacks to monitor the validation accuracy.
+        </p>
+        <br>
+         <div class="subheading mb-3">Cat vs Non Cat Classifier (Transfer Learning)</div>
+        <p The project involved classifying cat vs non-cat on a dataset of only 120 images. The training accuracy was 99 percent and test accuracy 90 percent. The difficult part of this project was the small dataset which was there and the complexity of the dataset. Using transfer learning on VGG 16 model increased the accuracy of the training set from 60 percent to 99 and test accuracy from 45 to 90 percent.
+        </p>
+        <p class="mb-0">At first, the model which I used was the CNN model which was doing great on the training dataset but was not performing well on the test dataset which clearly was the case of overfitting. The problem was the small dataset of only 120 images. I tried using data augmentation but that didn't help in great advancements. Then using the concept of transfer learning and using the VGG-16 model I was able to attain almost 90 percent accuracy and correctly classify the cats.
+        </p>
+        <br>
+        <div class="subheading mb-3">Dogs vs Cat Classifier</div>
+        <pUsing Microsoft's dogs and cat's dataset built a classifier with an xx percent accuracy. The model was coded with Keras and Tensorflow and was tuned using dropout and visualized using tensorboard. The model achieved 90 percent accuracy with 10 epochs.
+        </p>
+        <p class="mb-0">This was the first project which was using the CNN model. The model was debugged using grid search like process. The model was then further tuned using tensorboard which helped greatly in visualizing all the metrics associated with the model. The dataset was also pretty huge (24946 Images) so it also helped me in working with a large dataset
+        </p>
+        <br>
         <div class="subheading mb-3">Home Automation Using IoT</div>
         <p>The home automation project using Internet of Things was our final year project. The project enabled the user to control various appliances in his/her house through the use of mobile app. The project required a constant internet connection and the devices could be controlled remotely.
         </p>
@@ -290,30 +300,22 @@
         </p>
         <br>
         <div class="subheading mb-3">URL Shortener Using Django</div>
-        <p>The Django URL Shortener as the name suggest is a URL shortening service which was completely built from scratch by me. It uses a base 62 to decimal conversion to convert a long URL to a short one.
+        <p>This was my first Django project which converted a long URL of any length to a tiny URL by using decimal to base 62 conversions. The stats are stored in the database and the site is stylized using bootstrap.
         </p>
-        <p class="mb-0">The URL shortener works on the Base62 algorithm and it takes a number which is the primary key of the long URL in
-          the databse and then converts it to base62 and gives us the short URL. The short URL is again converted to long
-          URL using the base62 to Decimal algorithm.
+        <p class="mb-0">The Django URL Shortener as the name suggest is a URL shortening service which was completely built from scratch by me. It uses a base 62 to decimal conversion to convert a long URL to a short one.
         </p>
         <br>
-        <div class="subheading mb-3">Klik Services</div>
-        <p>N.A
+        <div class="subheading mb-3">Neural Networks From Scratch</div>
+        <p> Built a neural network from scratch using only numpy. The neural network was of multilayer perceptron which was continuously enhanced using Adam optimizer, momentum, rms prop, and Xavier initialization. The model attained an accuracy of 98 percent.
         </p>
-        <p class="mb-0">N.A
-        </p>
-        <br>
-        <div class="subheading mb-3">Image Classifier</div>
-        <p>The project involved classifying cat vs non-cat on a dataset of only 120 images. The training accuracy was 99 percent and test accuracy 90 percent. The difficult part of this project was the small dataset which was there and the complexity of the dataset. 
-        </p>
-        <p class="mb-0">Using transfer learning on VGG 16 model increased the accuracy of training set from 60 percent to 99 and test accuracy from 45 to 90 percent.
+        <p class="mb-0">Starting from scratch was a very good experience as I got to see my model continuously improving with each enhancement. With just a little bit of tinkering, I was able to increase the accuracy from 95 percent to 98 percent. As the whole model was built from scratch I was able to get into the nitty-gritty of every topic.
         </p>
         <br>
       </div>
        <div class="subheading mb-3">Object Detection using YOLO</div>
-        <p>Using the webcam of the laptop the model was able to detect fidget spinner with bounding box around it.  
+        <p>Using the webcam of the laptop the model was able to detect fidget spinner with a bounding box around it. The dataset was of 300 images and was scraped from google images and was labeled by me. The images and its respective labels were then used to train the tiny YOLO model. 
         </p>
-        <p class="mb-0">The dataset was of 300 images and was scraped from google images and was labelled by me. The images and its respective labels were then used to train the tiny YOLO model.
+        <p class="mb-0">The project started with collecting the dataset which was images of the fidget spinner scraped from google images. The images were then labeled drawing bounding box around each fidget spinner in the image. Then the model was trained using only datasets of 300 images. When the model was run on live webcam feed it was successfully able to identify the fidget spinner without any difficulty.
         </p>
         <br>
       </div>
@@ -339,16 +341,16 @@
             in 2015 and 2016.</li>
           <li>
             <i class="fa-li fa fa-trophy text-warning"></i>
-            Member of football team winning second prize in Annual College sports fest "ENDURA"</li>
+            Member of football team which won second prize in Annual College sports fest "ENDURA"</li>
           <li>
             <i class="fa-li fa fa-trophy text-warning"></i>
-            Member of organizing committee of college fest such as endura and robo-wars</li>
+            Founder of college's Technical committee and member of organizing committee of college fest such as endura and robo-wars</li>
           <li>
             <i class="fa-li fa fa-trophy text-warning"></i>
             Bestowed upon as the House captain in school. </li>
           <li>
             <i class="fa-li fa fa-trophy text-warning"></i>
-            Won several events in spprts and loiterary events in high school and intermediate.</li>
+            Won several events in sports and loiterary events in high school and intermediate.</li>
         </ul>
       </div>
     </section>
